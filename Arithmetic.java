@@ -10,5 +10,9 @@ public class Arithmetic {
     double y = 123.2;
     double sum=  x + y;
     System.out.println("sum of x and y is: " + sum);
+
+
+    int result  = 5+3*2;
+    System.out.println("result of 5+3*2 is: " + result);
   }
 }
