@@ -24,6 +24,12 @@ class Variables{
     //used for storing true or false values
     boolean h = true; //values can be either true or false
 
+
+    //typecasting variables
+
+    char charValue = 'n';
+    System.out.println("ascii value of n is : "+(int)charValue); //prints the ASCII value of the character 'n'
+
     System.out.println("Integer value: " + a);
     System.out.println("Short value: " + b);
     System.out.println("Byte value: " + c);
