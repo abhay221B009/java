@@ -13,6 +13,6 @@ public class Arithmetic {
 
 
     int result  = 5+3*2;
-    System.out.println("result of 5+3*2 is: " + result);
+    System.out.println("result of 5+3*2 is: " + result);                    
   }
 }
