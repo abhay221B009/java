@@ -28,8 +28,12 @@ class Variables{
     //typecasting variables
 
     char charValue = 'n';
-    System.out.println("ascii value of n is : "+(int)charValue); //prints the ASCII value of the character 'n'
+    System.out.println("ascii value of n is : "+(int)charValue); //prints the ASCII value of the character 'n'   System.out.println((char)10084);
+        System.out.println("\u2764");
+        System.out.println("❤");
 
+
+    System.out.println((char)10084);
     System.out.println("Integer value: " + a);
     System.out.println("Short value: " + b);
     System.out.println("Byte value: " + c);
