@@ -45,5 +45,6 @@ public class sstring{
       String str2 = "Hello World";  
     String str3 = str2.replace("World", "Java"); //this will replace the word World with Java in the string str2 and return a new string
     System.out.println(str3); //prints Hello Java
+    
   }
 }

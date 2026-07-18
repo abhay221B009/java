@@ -1,0 +1,1 @@
+A class is a blueprint for creating objects. It defines the structure (fields) and behavior (methods) of objects.
