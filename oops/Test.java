@@ -1,11 +1,9 @@
 package oops;
-public class Test {
 
-  public static void main(String[]args){
-    Car car  =  new Car();
+public class Test {
+  public static void main(String[] args) {
+    Car car = new Car("green");
     car.speed = 100;
-    car.color = "red";
     car.drive();
   }
-  
 }
