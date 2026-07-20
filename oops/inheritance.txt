@@ -1,0 +1,1 @@
+inheritance allows a class to acquire properties and methods of another class.It supports code reusability.
