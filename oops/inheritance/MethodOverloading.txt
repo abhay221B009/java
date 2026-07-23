@@ -1,0 +1,24 @@
+//method overloading or compile time polymorphism 
+
+// Method overloading in java is a feature that allows a class to have multiple methods with the same name but different parameters lists. It enables a method to perform different tasks depending on the arguments  passed to it.
+
+class Calculator{
+  //add two numbers
+  int add (int a ,int b){
+    return a+b;
+  }
+
+  //add three numbers 
+
+  int add (int a, int b, int c){
+    return a+b+c;
+  }
+}
+
+public class Main{
+  public static void main(String[]args){
+    Calculator calc = new Calculator();
+    System.out.println(calc.add(2,3));
+    System.out.println(calc.add(2,3,4));
+  }
+}
