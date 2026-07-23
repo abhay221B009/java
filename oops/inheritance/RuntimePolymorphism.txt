@@ -1,0 +1,31 @@
+//runtime polymorphism (or) dynamic polymorphism
+
+//Run time polymorphism is achieved through method overriding, where a subclass provides a specific implementation of a method already defined in its parent class. The method to be called is determined at runtime based on the object
+
+class Animal{
+  void sound(){
+    System.out.println("Animal makes a sound");
+  }
+}
+
+class Dog extends Animal{
+  void sound(){
+    System.out.println("Dog barks");
+  }
+}
+
+class Cat extends Animal{
+  void sound(){
+    System.out.println("Cat meows");
+  }
+}
+
+public class Main{
+  public static void main(String[]args){
+    Animal animal1 = new Dog();
+    Animal animal2 = new Cat();
+    animal1.sound();
+    animal2.sound();
+
+  }
+}
